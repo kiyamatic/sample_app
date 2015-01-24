@@ -85,3 +85,264 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-24 09:36:28
 
 
 Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-24 09:36:28 +0900
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2015-01-24 10:23:48 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 128ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-24 10:23:49 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 10:23:49 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-24 10:23:49 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-24 10:23:49 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-24 10:23:49 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 10:23:49 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-24 10:23:49 +0900
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2015-01-24 10:24:03 +0900
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-24 10:24:03 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 10:24:03 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-24 10:24:03 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 10:24:03 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-24 10:24:03 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-24 10:24:03 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-24 10:24:03 +0900
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2015-01-24 11:20:20 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 63ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    1: <!DOCTYPE html>
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+  app/helpers/application_helper.rb:4:in `full_title'
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__3316738740044658691_70310055995040'
+
+
+  Rendered /Users/kiyama/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /Users/kiyama/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/kiyama/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.0ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2015-01-24 11:21:53 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    1: <!DOCTYPE html>
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+  app/helpers/application_helper.rb:4:in `full_title'
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__3316738740044658691_70310047607260'
+
+
+  Rendered /Users/kiyama/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/kiyama/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/kiyama/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.6ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2015-01-24 11:22:51 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (undefined local variable or method `base_titile' for #<#<Class:0x007fe4abcff5e8>:0x007fe4abcfd270>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+  app/helpers/application_helper.rb:9:in `full_title'
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__3316738740044658691_70310047607260'
+
+
+  Rendered /Users/kiyama/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/kiyama/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/kiyama/.rvm/gems/ruby-2.1.5@global/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.4ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2015-01-24 11:23:28 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 59ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-24 11:23:28 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-24 11:23:28 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-24 11:23:28 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 11:23:28 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 11:23:28 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-24 11:23:28 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-24 11:23:28 +0900
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2015-01-24 11:24:13 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-24 11:24:14 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:14 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:14 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:14 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:14 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-24 11:24:14 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:14 +0900
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2015-01-24 11:24:27 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:27 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-24 11:24:27 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:27 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:27 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:27 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-24 11:24:27 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:27 +0900
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2015-01-24 11:24:52 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-24 11:24:52 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:52 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-24 11:24:52 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:52 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:52 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:52 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-24 11:24:52 +0900
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2015-01-24 11:25:07 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-24 11:25:07 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-24 11:25:07 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-24 11:25:07 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 11:25:07 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 11:25:07 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2015-01-24 11:25:07 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-24 11:25:07 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2015-01-24 11:25:09 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-24 11:25:09 +0900
